@@ -1,0 +1,231 @@
+
+nav{
+    margin: 20px;
+}
+
+.search{
+margin-right: 15px;
+margin-top: 2px;
+border-color: #dbdbdb;
+}
+
+
+.section{
+    margin-top: 100px;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.start{ 
+    background-color: #ff7d46;
+    background-image: -webkit-linear-gradient(225deg, #ff7d46 0%, #f16051 74%);
+    background-image: -moz-linear-gradient(225deg, #ff7d46 0%, #f16051 74%);
+    background-image: -o-linear-gradient(225deg, #ff7d46 0%, #f16051 74%);
+    background-image: linear-gradient(225deg, #ff7d46 0%, #f16051 74%);
+    padding-left: 90px;
+    padding-right: 30px;
+}
+
+.about{
+    color: white;
+}
+
+.about h2{
+    font-size: 26px;
+}
+
+.getin{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px;
+}
+
+.gettin {
+     -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2.25em;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    line-height: 1.5;
+    padding-bottom: calc(.375em - 1px);
+    padding-left: calc(.625em - 1px);
+    padding-right: calc(.625em - 1px);
+    padding-top: calc(.375em - 1px);
+    position: relative;
+    vertical-align: top;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #fff;
+    border-color: #dbdbdb;
+    color: #363636;
+    cursor: pointer;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: .75em;
+    padding-right: .75em;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 32px;
+}
+
+.gettin:hover {
+   background-color: #f16051;
+background-image: -webkit-linear-gradient(270deg, #f16051 0%, #ff7d46 74%);
+background-image: -moz-linear-gradient(270deg, #f16051 0%, #ff7d46 74%);
+background-image: -o-linear-gradient(270deg, #f16051 0%, #ff7d46 74%);
+background-image: linear-gradient(270deg, #f16051 0%, #ff7d46 74%);
+
+    color: white;
+}
+
+.foot{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    background-color: #f16051;
+}
+
+.tet{
+    padding-bottom: 2em;
+}
+
+.tett{
+    padding-bottom: 6em;
+}
+
+footer{
+    padding-top: 125px;
+}
+
+.latest{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+.wrapper {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+
+}
+.wrapper:focus {
+  outline: 0;
+}
+
+.oss-card {
+  background: transparent;
+  width: 300px;
+  display: inline-block;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  box-shadow: 5px 15px 30px -12px #0190fe;
+  z-index: 9999;
+  border: 1px solid #0190fe ; 
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 100px;
+   
+
+}
+
+.field{
+    margin-left: 30px;
+    margin-right: 30px;    
+}
+
+
+.hex{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.up{
+    margin-top: 20px;
+}
+
+.oss-card:hover{
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3) ;
+    border: none;
+}
+
+
+.oss-card-image--oss {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+.oss-card-image--oss img{
+    width: 100px;
+    margin-top: 10px
+}
+
+
+.oss-card-unit-name {
+  font-size: 26px;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.oss-card-unit-description {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.btn{
+    border-radius: 32px;
+    border-color: #6346B8;
+    float: center;
+    margin-bottom: 20px; 
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+
+.btn:hover{
+    color: white !important;
+    border-color: transparent;
+    background-color: #f16051;
+    background-image: -webkit-linear-gradient(270deg, #f16051 0%, #ee5487 74%);
+    background-image: -moz-linear-gradient(270deg, #f16051 0%, #ee5487 74%);
+    background-image: -o-linear-gradient(270deg, #f16051 0%, #ee5487 74%);
+    background-image: linear-gradient(270deg, #f16051 0%, #ee5487 74%);
+}
+
+.link{
+    color: white;
+}
+
+.navbar-item.is-mega {
+  position: static;
+}
+.navbar-item.is-mega .is-mega-menu-title {
+  margin-bottom: 0;
+  padding: 0.375rem 1rem;
+}
+
